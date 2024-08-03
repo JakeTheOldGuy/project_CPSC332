@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>University Database</title>
+</head>
+<body>
+    <h1>California State University, Fullerton</h1>
+
+    <!-- Existing Buttons -->
+    <button onclick="location.href='display_sections.php'">View Section Table</button>
+    <button onclick="location.href='display_professors.php'">View Professors Table</button>
+    <button onclick="location.href='display_students.php'">View Students Table</button>
+    <button onclick="location.href='display_courses.php'">View Courses Table</button>
+    <button onclick="location.href='display_meetingdays.php'">View MeetingDays Table</button>
+
+    <!-- New Form for CWID Search -->
+    <h2>Search Student by CWID</h2>
+    <form action="search_cwid.php" method="get">
+        CWID: <input type="text" name="cwid">
+        <input type="submit" value="Search">
+    </form>
+</body>
+</html>
